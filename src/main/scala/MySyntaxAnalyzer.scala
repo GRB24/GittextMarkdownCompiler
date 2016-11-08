@@ -1,6 +1,8 @@
 /**
   * Created by BatesG on 10/11/2016.
   */
+package edu.towson.cosc.cosc455.gbates1.project1
+
 class MySyntaxAnalyzer extends SyntaxAnalyzer{
   override def gittex(): Unit = {
     if (compiler.currentToke.equalsIgnoreCase(CONSTANTS.DOCB)){
